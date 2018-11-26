@@ -1,12 +1,19 @@
 {
   "name": "bookmarklets",
   "version": "1.0.0",
-  "description": "",
+  "description": "My bookmarklets",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build src/* --no-source-maps --experimental-scope-hoisting"
   },
   "keywords": [],
   "author": "Florian Schrödl <hello@florianschroedl.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bookmarklet": "^1.0.2",
+    "ramda": "^0.26.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3"
+  }
 }
