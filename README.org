@@ -1,0 +1,22 @@
+#+TITLE: README
+
+
+* Bookmarklets
+
+My custom bookmarklets.
+
+** Building
+
+For now just copy them to your command line
+
+#+BEGIN_SRC bash
+npm run build; echo "javascript:$(cat dist/slack-discord.js)" | pbcopy
+#+END_SRC
+
+** Scripts
+
+*** Slack / Discord
+
+Goes to the latest unread message on either slack or discord.
+
+Practical when bound to a hotkey, to quickly switch to the latest messages.
