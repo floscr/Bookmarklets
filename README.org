@@ -1,6 +1,3 @@
-#+TITLE: README
-
-
 * Bookmarklets
 
 My custom bookmarklets.
