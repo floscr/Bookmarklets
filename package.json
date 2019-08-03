@@ -4,7 +4,8 @@
   "description": "My bookmarklets",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build src/* --no-source-maps --experimental-scope-hoisting"
+    "build": "parcel build src/* --no-source-maps --experimental-scope-hoisting",
+    "postbuild": "node ./scripts/make-bookmarklet.js"
   },
   "keywords": [],
   "author": "Florian Schrödl <hello@florianschroedl.com>",
