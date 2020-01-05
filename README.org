@@ -32,4 +32,5 @@ Practical when bound to a hotkey, to quickly switch to the latest messages.
 Status: Working ✔️
 
 Custom script for saving my org notes.
+
 To use define ~CAPTURE_DOMAIN~ in the ~./env~ file.
