@@ -7,7 +7,9 @@ If you want to use this repository, the best choice would probably to fork it, s
 ** Instructions
 
 All scripts are in ~./src~
+
 To build simply run ~npm run build~
+
 Copy the compiled bookmarklet source code and paste it in the URL field of your bookmark.
 
 ** Scripts
