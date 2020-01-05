@@ -1,19 +1,33 @@
 * Bookmarklets
 
-My custom bookmarklets.
+Build your custom bookmarklets in a source controlled and automatic environment.
 
-** Building
+If you want to use this repository, the best choice would probably to fork it, suggestions are open though ✨
 
-For now just copy them to your command line
+** Instructions
 
-#+BEGIN_SRC bash
-npm run build; echo "javascript:$(cat dist/slack-discord.js)" | pbcopy
-#+END_SRC
+All scripts are in ~./src~
+To build simply run ~npm run build~
+Copy the compiled bookmarklet source code and paste it in the URL field of your bookmark.
 
 ** Scripts
 
+*** Kill sticky
+
+Status: Working ✔️
+
+Remove those annoying fixed elements.
+
 *** Slack / Discord
+
+Status: Broken ❌
 
 Goes to the latest unread message on either slack or discord.
 
 Practical when bound to a hotkey, to quickly switch to the latest messages.
+*** Org Capture
+
+Status: Working ✔️
+
+Custom script for saving my org notes.
+To use define ~CAPTURE_DOMAIN~ in the ~./env~ file.
